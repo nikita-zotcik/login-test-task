@@ -1,0 +1,166 @@
+.signup-page {
+  padding: 20px;
+}
+
+.signup-page h1 {
+  margin-bottom: 32px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+}
+
+.signup-button {
+  display: flex;
+  justify-content: center;
+
+  //width: 280px;
+  width: 100%;
+  height: 40px;
+  margin-top: 16px;
+  background: #DBDBDB;
+  border-radius: 4px;
+}
+
+.signup-button.active {
+  background: #4E42E4;
+}
+
+.signup-button-label {
+
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  color: #FFFFFF;
+}
+
+.signin-description_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.signup-description {
+  text-align: center;
+  width: 130px;
+  margin: 32px auto 0;
+  color: #AFAFAF;
+
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.signup-description p {
+  margin-bottom: 8px;
+}
+
+.signup-link {
+  display: flex;
+  justify-content: center;
+  color: #404040;
+
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 500px) {
+  .signin-page {
+    padding: 70px;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .signup-page {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 124px;
+    height: 100vh;
+
+    h1 {
+      text-align: left;
+    }
+  }
+  label {
+    padding-bottom: 8px;
+  }
+  form {
+    width: 540px;
+
+    .signup-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .input-container {
+        width: 45%;
+        min-width: 260px;
+        margin-bottom: 10px;
+      }
+
+      .input-select-block {
+        width: 45%;
+        min-width: 260px;
+      }
+
+      .inputWrapper {
+        margin: 0;
+        width: 45%;
+        min-width: 260px;
+      }
+
+      .inputPhone {
+        margin: 0;
+      }
+    }
+
+    .signup-row:nth-child(4) {
+      margin-bottom: 10px;
+    }
+  }
+  .signup-button {
+    width: 140px;
+  }
+  .signup-description_container {
+    display: flex;
+    position: absolute;
+    top: 48px;
+    right: 20%;
+    flex-direction: row;
+
+    .signup-description {
+      margin: 0;
+      text-align: right;
+      width: 210px;
+    }
+
+    .signup-link {
+      margin: 0 12px;
+      display: flex;
+      align-items: center;
+      padding-top: 5px;
+
+    }
+  }
+}

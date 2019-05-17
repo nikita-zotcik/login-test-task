@@ -1,0 +1,121 @@
+.render-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //width: 280px;
+  width: 100%;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.render-input.error {
+  border: 1px solid #F54747;
+}
+
+.render-input input {
+  //position: absolute;
+  //height: 24px;
+  //left: 12px;
+  //right: 12px;
+  //top: calc(50% - 24px/2);
+  //width: 256px;
+  width: 100%;
+  margin: 8px 12px;
+
+  border: none;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  display: flex;
+  align-items: center;
+
+  color: #404040;
+}
+.render-input input::placeholder {
+  color: #DBDBDB;
+}
+
+.render-input input:focus,
+.render-select select:focus {
+  outline: none;
+}
+
+.render-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //width: 280px;
+  width: 100%;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.render-select.error {
+  border: 1px solid #F54747;
+}
+
+.render-select select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 0;
+  background-color: transparent;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #404040;
+}
+
+.label-container {
+  display: flex;
+}
+
+.label-container label {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  color: #AFAFAF;
+}
+
+.error-field-container {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  color: #F54747;
+}
+
+.input-image {
+  padding: 8px 12px;
+}
+
+@media only screen and (max-width: 320px) {
+
+}

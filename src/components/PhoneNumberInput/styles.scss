@@ -1,0 +1,62 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  margin: auto;
+}
+
+.inputWrapper__label {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.error-field-container {
+  height: 16px;
+}
+
+.inputPhone {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 8px;
+  border: 1px solid #DBDBDB;
+  border-radius: 4px;
+}
+
+.inputPhone.error {
+  border: 1px solid #F54747;
+}
+
+.inputPhone span {
+  padding: 11px 12px;
+  background-color: #F9F9F9;
+  margin-right: 13px;
+  border-radius: 4px;
+}
+
+.inputPhone input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  color: #404040;
+}
+
+.inputPhone input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.inputPhone input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.inputPhone input:-moz-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.inputPhone input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
